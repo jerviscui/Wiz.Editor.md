@@ -44,6 +44,7 @@ $(function() {
         tocDropdown     : false,             // [TOC]自动生成下拉菜单的目录，默认关闭
         emoji           : optionSettings.EmojiSupport == "1" ? true : false,              // Emoji表情，默认关闭
         taskList        : true,              // Task lists，默认关闭
+        indentWithTabs  : false,
         disabledKeyMaps : [
             "F9", "F10", "F11"               // 禁用切换全屏状态，因为为知已经支持
         ],
